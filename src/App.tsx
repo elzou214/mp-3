@@ -45,6 +45,7 @@ export default function App() {
         <Header/>
         <LayoutDiv>
           <RouterProvider router={router}/>
+          
            
         </LayoutDiv>
 
@@ -79,7 +80,4 @@ display: flex;
     min-height: 70vh;
 
 
-`
-const StyleMain = styled.main`
-height: 100vh;
 `
