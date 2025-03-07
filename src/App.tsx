@@ -68,6 +68,10 @@ const PageDiv = styled.div`
  width: 70vw;
     background-color: rgb(244, 230, 244);
     margin: 0 auto;
+    @media screen and (max-width: 750px){
+    width: 100%;
+
+    }
 
 
 `
@@ -77,6 +81,11 @@ display: flex;
     border: 0.15vw solid rgb(205, 195, 195);
     padding: 2vh 2vw;
     min-height: 70vh;
+    @media screen and (max-width: 750px){
+    display: flex;
+        flex-direction: column;
+
+    }
 
 
 `

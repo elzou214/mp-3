@@ -12,7 +12,14 @@ const StyledP = styled.p`
 const StyledHeader = styled.header`
     display: flex;
     flex-direction: column;
-    background-color:#cea8ce; `
+    background-color:#cea8ce; 
+    @media screen and (max-width: 750px){
+    align-items: center;
+
+    }
+
+
+    `
 
 export default function Header(){
     return(

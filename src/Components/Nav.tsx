@@ -3,6 +3,12 @@ import styled from "styled-components";
 
 const StyledNav = styled.nav`
 padding-right: 5vw;
+@media screen and (max-width: 750px){
+    padding-right: 0;
+        width: 100%;
+
+    }
+
 
 `
 const StyledUl = styled.ul`
@@ -16,12 +22,27 @@ const StyledUl = styled.ul`
     align-items: center;
     border: 0.15vw solid rgb(205, 195, 195);
     background-color: white;
+
+    @media screen and (max-width: 750px){
+    padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: white;
+    }
 `
 
 const StyledLi = styled.li`
  width: 90%;
     padding: 2vh 0;
     font-size: calc(3px + 2vw);
+    @media screen and (max-width: 750px){
+    font-size: calc(2px + 2.5vw);
+        padding: 2% 1%;
+
+    }
 `
 
 

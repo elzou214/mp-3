@@ -5,6 +5,11 @@ const ImgDiv = styled.div`
 width: 50%;
     margin: 0vh 0vw;
     margin-right: 4vw;
+    @media screen and (max-width: 750px){
+    width: 95%;
+        width: 50%;
+
+    }
 `
 
 const PicDiv = styled.img`
@@ -21,12 +26,22 @@ width: 50%;
     text-align: justify;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 1vh 2vw; 
+    @media screen and (max-width: 750px){
+    width: 95%;
+        font-size: calc(2px + 3vw);
+
+    }
 `
 const ContentDiv=styled.div`
-display: flex;
+    display: flex;
     flex-direction: row;
-    
     padding: 0vh 0vw;
+    @media screen and (max-width: 750px){
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 `
 export default function Home(){

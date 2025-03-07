@@ -1,8 +1,10 @@
 
-
+import { StyleMain} from "../styledCompo"
 export default function Projects(){
     return(
-        <p>pr</p>
+        <StyleMain>
+            
+        </StyleMain>
 
     )
    
