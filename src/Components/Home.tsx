@@ -37,7 +37,7 @@ export default function Home(){
             <StyledH2> Home </StyledH2>
             <ContentDiv>
                 <ImgDiv>
-                    <PicDiv src="/public/pic.png" alt="Elva Zou"/> 
+                    <img src="/public/pic.png" alt="Elva Zou"/> 
                 </ImgDiv>
                 <IntroDiv>
                     <StyledP> 
