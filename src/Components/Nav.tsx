@@ -2,17 +2,17 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledNav = styled.nav`
-padding-right: 5vw;
-@media screen and (max-width: 750px){
-    padding-right: 0;
-        width: 100%;
+    padding-right: 5vw;
+    @media screen and (max-width: 750px){
+        padding-right: 0;
+            width: 100%;
 
     }
 
 
 `
 const StyledUl = styled.ul`
- display: flex;
+    display: flex;
     flex-direction: column;
     width: 15vw;
     
@@ -35,7 +35,7 @@ const StyledUl = styled.ul`
 `
 
 const StyledLi = styled.li`
- width: 90%;
+    width: 90%;
     padding: 2vh 0;
     font-size: calc(3px + 2vw);
     @media screen and (max-width: 750px){

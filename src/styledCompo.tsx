@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const StyleMain = styled.main`
 height: 100vh;
+width: 95vw;
 `
 
 export const ContentDiv = styled.div`
