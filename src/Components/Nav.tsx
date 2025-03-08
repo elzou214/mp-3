@@ -47,8 +47,12 @@ const StyledLi = styled.li`
 
 
 export default function Nav(){
+    
+    
     return(
+        
         <StyledNav>
+            
             <StyledUl>
                 <StyledLi>
                     <Link to={`/`}> Home </Link>

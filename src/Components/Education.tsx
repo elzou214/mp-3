@@ -9,6 +9,7 @@ const StyledP=styled.p`
     color: black;
 `
 export default function Education(){
+    document.title = "Education | Resume";
     return(
          <StyleMain>
             <StyledH2>Interests</StyledH2>

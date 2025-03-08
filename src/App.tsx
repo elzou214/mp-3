@@ -7,12 +7,14 @@ import Experiances from './Components/Experiances'
 import Interests from './Components/Interests'
 import Education from './Components/Education'
 import Home from './Components/Home'
+import Copyrights from './Components/Copyrights'
 import { Route,Routes,createBrowserRouter,RouterProvider } from 'react-router-dom'
 import "./App.css";
 
 
 function Root(){
   return(
+
     <PageDiv>
       <Header/>
       <LayoutDiv>
@@ -24,9 +26,9 @@ function Root(){
           <Route path={`/education`} element={<Education/>}/> 
           <Route path={`/projects`} element={<Projects/>}/> 
           <Route path={`/interests`} element={<Interests/>}/> 
-
         </Routes>
         </LayoutDiv>
+        <Copyrights/>
       </PageDiv>
 
   )

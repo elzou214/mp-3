@@ -6,14 +6,18 @@ const StyledP = styled.p`
 font-size: calc(1.7px + 1.1vw + 1.1vh);
     color:#901466;
     margin-top: 0;
+    text-align: left;
 `
 
 const StyledLi = styled.li`
 font-size: calc(1px + 1vw + 1vh);
     padding-bottom: 4%;
     color: black;
+    text-align: left;
+    
 `
 export default function Experiances(){
+    document.title = "Experiances | Resume";
     return(
         <StyleMain>
             <StyledH2>Experiances</StyledH2>

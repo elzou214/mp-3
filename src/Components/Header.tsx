@@ -2,11 +2,13 @@ import styled from "styled-components"
 const StyledH1 = styled.h1`
   margin: 0;  
   padding: 1vh 0;  
+  color: black;
 `
 
 const StyledP = styled.p`
-  margin: 0;  
+  margin: 0;    
   padding: 1vh 0;  
+  color: black;
 `
 
 const StyledHeader = styled.header`

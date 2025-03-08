@@ -9,6 +9,7 @@ border-left: 0.5vh solid rgb(232, 123, 232);
 `
 
 export default function Achievements(){
+    document.title = "Achievements | Resume";
     return(
         <StyleMain>
             <StyledH2>Achievements</StyledH2>

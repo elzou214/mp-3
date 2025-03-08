@@ -45,6 +45,7 @@ const ContentDiv=styled.div`
 
 `
 export default function Home(){
+    document.title = "Home | Resume";
     return(
     
             

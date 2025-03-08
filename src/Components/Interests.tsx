@@ -14,6 +14,7 @@ border-left: 0.5vh solid rgb(232, 123, 232);
 
 
 export default function Interests(){
+    document.title = "Interests | Resume";
     return(
         <StyleMain>
             <StyledH2>Interests</StyledH2>

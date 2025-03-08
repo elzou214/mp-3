@@ -59,8 +59,11 @@ const StyledButton =styled.button`
 
 
 `
-
+const StyledLabel = styled.label`
+  color : black;
+`
 export default function Projects() {
+  document.title = "Projects | Resume";
   const [first, setFirst] = useState("");
   const [second, setSecond] = useState("");
   const [output, setOutput] = useState("\u200B"); 
@@ -72,7 +75,10 @@ export default function Projects() {
 
     switch (s) {
       case "pow":
-        result = num1 
+        result = 1 
+        for(let i = 0; i < num2; i++){
+          result = num1 * result
+      }
         break;
       case "add":
         result = num1 + num2;
@@ -104,11 +110,14 @@ export default function Projects() {
       <StyledCalculator>
         
         <StyledNumbers>
+          <StyledLabel htmlFor="First">Num1</StyledLabel>
+
           <First
             type="number" value={first} onChange={(e) => setFirst((e.target.value))}/>
+          <StyledLabel htmlFor="Second">Num2</StyledLabel>
           <Second
             type="number" value={second} onChange={(e) => setSecond((e.target.value))}/>
-        </StyledNumbers>
+        </StyledNumbers>  
 
         <div>
           <StyledButton onClick={() => calculate("pow")}> ** </StyledButton>
